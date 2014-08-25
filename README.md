@@ -4,4 +4,7 @@ CityGuidesEffect
 Animation effect similar with City Guides app
 
 Screenshots:
-https://github.com/tuchangwei/CityGuidesEffect/blob/master/screenshots.gif
+
+![][0]
+
+[0]: https://github.com/tuchangwei/CityGuidesEffect/blob/master/screenshots.gif
