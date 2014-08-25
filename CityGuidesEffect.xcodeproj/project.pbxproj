@@ -21,6 +21,12 @@
 		3B8B057219AAE473002B802E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B8B055419AAE473002B802E /* UIKit.framework */; };
 		3B8B057A19AAE473002B802E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B8B057819AAE473002B802E /* InfoPlist.strings */; };
 		3B8B057C19AAE473002B802E /* CityGuidesEffectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8B057B19AAE473002B802E /* CityGuidesEffectTests.m */; };
+		3B8B058B19AAE4AC002B802E /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B8B058619AAE4AC002B802E /* 0.png */; };
+		3B8B058C19AAE4AC002B802E /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B8B058719AAE4AC002B802E /* 1.png */; };
+		3B8B058D19AAE4AC002B802E /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B8B058819AAE4AC002B802E /* 2.png */; };
+		3B8B058E19AAE4AC002B802E /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B8B058919AAE4AC002B802E /* 3.png */; };
+		3B8B058F19AAE4AC002B802E /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B8B058A19AAE4AC002B802E /* bg.png */; };
+		3B8B05D619AB1601002B802E /* VLSCrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8B05D519AB1601002B802E /* VLSCrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,13 @@
 		3B8B057719AAE473002B802E /* CityGuidesEffectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CityGuidesEffectTests-Info.plist"; sourceTree = "<group>"; };
 		3B8B057919AAE473002B802E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3B8B057B19AAE473002B802E /* CityGuidesEffectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CityGuidesEffectTests.m; sourceTree = "<group>"; };
+		3B8B058619AAE4AC002B802E /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
+		3B8B058719AAE4AC002B802E /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		3B8B058819AAE4AC002B802E /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		3B8B058919AAE4AC002B802E /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		3B8B058A19AAE4AC002B802E /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		3B8B05D419AB1601002B802E /* VLSCrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VLSCrollView.h; sourceTree = "<group>"; };
+		3B8B05D519AB1601002B802E /* VLSCrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VLSCrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +125,9 @@
 		3B8B055619AAE473002B802E /* CityGuidesEffect */ = {
 			isa = PBXGroup;
 			children = (
+				3B8B05D419AB1601002B802E /* VLSCrollView.h */,
+				3B8B05D519AB1601002B802E /* VLSCrollView.m */,
+				3B8B058519AAE498002B802E /* Images */,
 				3B8B055F19AAE473002B802E /* VLAppDelegate.h */,
 				3B8B056019AAE473002B802E /* VLAppDelegate.m */,
 				3B8B056219AAE473002B802E /* Main.storyboard */,
@@ -150,6 +166,18 @@
 				3B8B057819AAE473002B802E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B8B058519AAE498002B802E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3B8B058619AAE4AC002B802E /* 0.png */,
+				3B8B058719AAE4AC002B802E /* 1.png */,
+				3B8B058819AAE4AC002B802E /* 2.png */,
+				3B8B058919AAE4AC002B802E /* 3.png */,
+				3B8B058A19AAE4AC002B802E /* bg.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +257,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B8B058D19AAE4AC002B802E /* 2.png in Resources */,
+				3B8B058B19AAE4AC002B802E /* 0.png in Resources */,
+				3B8B058F19AAE4AC002B802E /* bg.png in Resources */,
 				3B8B056919AAE473002B802E /* Images.xcassets in Resources */,
 				3B8B055B19AAE473002B802E /* InfoPlist.strings in Resources */,
 				3B8B056419AAE473002B802E /* Main.storyboard in Resources */,
+				3B8B058E19AAE4AC002B802E /* 3.png in Resources */,
+				3B8B058C19AAE4AC002B802E /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B8B056119AAE473002B802E /* VLAppDelegate.m in Sources */,
+				3B8B05D619AB1601002B802E /* VLSCrollView.m in Sources */,
 				3B8B056719AAE473002B802E /* VLViewController.m in Sources */,
 				3B8B055D19AAE473002B802E /* main.m in Sources */,
 			);
